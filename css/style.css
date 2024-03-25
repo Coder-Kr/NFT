@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .dashboard{
@@ -53,6 +53,17 @@
 
 .side-navigation__menu__item{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2px 0;
+    box-sizing: border-box;
+    transition: background-color 0.4s;
+}
+
+.side-navigation__menu__item:hover{
+    background-color: rgba(13, 15, 35, 1);
+    border-right: 4px solid rgba(250, 31, 96, 1);
 }
 
 .side-navigation__menu__item a img{
@@ -221,8 +232,9 @@
 
 .sellers__item{
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
+
 
 .sellers__item img{
     padding-right: 8px;
